@@ -1,0 +1,9 @@
+﻿  DSA Project.cpp
+C:\Users\gtari\OneDrive\Desktop\data structure\Final DSA Project\DSA Project.cpp(405,13): error C2660: 'manageLoanRequests': function does not take 2 arguments
+      C:\Users\gtari\OneDrive\Desktop\data structure\Final DSA Project\employeeMeth.h(24,6):
+      see declaration of 'manageLoanRequests'
+      C:\Users\gtari\OneDrive\Desktop\data structure\Final DSA Project\DSA Project.cpp(405,13):
+      while trying to match the argument list '(doublylist *, int)'
+  
+  employeeMeth.cpp
+  Generating Code...
