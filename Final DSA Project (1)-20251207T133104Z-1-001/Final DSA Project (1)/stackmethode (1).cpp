@@ -42,14 +42,14 @@ transaction pop(stack* s) {
 	return t;
 
 };
-int stackSize(const stack* s) {
+int stackSize(const stack& s) {
 	if (!s) {
 		cerr << "stack is invalid " << endl;
 		return -1;
 	}
 	return s->top;
 };
-void displayStack(const stack* s) {
+void displayStack(const stack& s) {
 	if (!s) {
 		cerr << "stack is invalid " << endl;
 		return;
