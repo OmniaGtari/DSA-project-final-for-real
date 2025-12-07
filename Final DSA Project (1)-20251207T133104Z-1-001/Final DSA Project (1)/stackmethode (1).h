@@ -12,7 +12,7 @@ bool isFull(const stack& s);
 bool isEmpty(const stack& s);
 bool push(stack* s, transaction t);
 transaction pop(stack* s);
-int stackSize(const stack* s);
-void displayStack(const stack* s);
+int stackSize(const stack& s);
+void displayStack(const stack& s);
 
 #endif
